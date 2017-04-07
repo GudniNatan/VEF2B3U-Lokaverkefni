@@ -22,7 +22,7 @@ $.ajax({
 ## Notkun
 
 Hægt er að prófa vefsíðuna með því að fylgja þessari slóð:
-[http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/vefsíða.html](http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/vefs%C3%AD%C3%B0a.html)
+[http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/](http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/)
 
 
 ## API
