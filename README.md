@@ -10,12 +10,15 @@
 Hérna er kóðinn sem sækir tónleikaupplýsingarnar frá [apis.is](http://docs.apis.is/#endpoint-concerts):
 ~~~~
 $.ajax({
-  'url': 'http://apis.is/concerts',
-  'type': 'GET',
-  'dataType': 'json',
-  'success': function(response) {
-    console.log(response);
-  }
+	'url': 'http://apis.is/concerts/',
+	'type': 'GET',
+	'dataType': 'json',
+	'success': function(response) {
+	  	concertSuccess(response);
+	},
+	'error': function(response){
+	  	concertError(response);
+	}
 });
 ~~~~
 

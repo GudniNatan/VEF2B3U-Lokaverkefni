@@ -20,11 +20,20 @@
 	}
 
 	$.ajax({
-	  'url': 'http://apis.is/concerts/',
-	  'type': 'GET',
-	  'dataType': 'json',
-	  'success': function(response) {
-	    for (var i = response.results.length - 1; i >= 0; i--) {
+		'url': 'http://apis.is/concerts/',
+	  	'type': 'GET',
+	  	'dataType': 'json',
+	  	'success': function(response) {
+	  		concertSuccess(response);
+	  	},
+	  	'error': function(response){
+	  		concertError(response);
+	  	}
+	});
+
+	function concertSuccess(response)
+	{
+		for (var i = response.results.length - 1; i >= 0; i--) {
 	    	concerts.push(response.results[i])
 	    }
 	    concerts.sort(function(a, b) {
@@ -41,13 +50,15 @@
 			option.textContent = item;
 			select.appendChild(option);
 		}
-	  },
-	  'error': function(response){
-	  	let text = document.createElement("p");
+
+	}
+
+	function concertError(response)
+	{
+		let text = document.createElement("p");
 	  	text.textContent = response;
 	  	container.appendChild(text);
-	  }
-	});
+	}
 
 	function addConcert(concert, id){
 		//Add image to dom, push concert to array
@@ -112,7 +123,8 @@
 			let eventHallName = concerts[i].eventHallName;
 			let possibleStrings = [eventDateName, name, userGroupName];
 			for (var k = possibleStrings.length - 1; k >= 0; k--) {
-				if (possibleStrings[k].length > 0 && possibleStrings[k].search(RegExp(search_string, 'i')) > -1 && (selectedLocation == eventHallName || selectedLocation == ""))
+				if (possibleStrings[k].length > 0 && possibleStrings[k].search(RegExp(search_string, 'i')) > -1 
+					&& (selectedLocation == eventHallName || selectedLocation == ""))
 				{
 					hidden = false;
 					break;
