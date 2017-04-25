@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Tillana');
+@import url('https://fonts.googleapis.com/css?family=Ranga:700');
 
 *{
 	box-sizing: border-box;
@@ -76,7 +76,7 @@ figure img, figure figcaption{
 }
 h1{
 	font-size: 4em;
-	font-family: 'Segoe Print', 'Tillana', cursive;
+	font-family: 'Segoe Print', 'Ranga', cursive;
 }
 footer{
 	position: fixed;

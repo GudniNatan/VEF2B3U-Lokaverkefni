@@ -16,7 +16,7 @@
 	let years = document.getElementById("years");
 	if (moment().year() > 2017)
 	{
-		years.textContent += " - " + moment().year();
+		years.textContent = "-" + moment().year();
 	}
 
 	$.ajax({

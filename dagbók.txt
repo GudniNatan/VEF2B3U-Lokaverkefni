@@ -12,3 +12,7 @@ Sorteri nú tónleika eftir dagsetningu og set þá inn. Moment komið inn.
 	Bætti við footer sem sýnir dynamic ár.
 	Stór meirihluti af verkefninu er nú tilbúinn.
 	
+25/04/2017
+Laga nokkur smáatriði, fer yfir kóða. Það þarf ekki að breyta miklu.
+	Breytti leturgerð á header úr Tilliana í Ranga.
+	

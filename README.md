@@ -2,7 +2,7 @@
 
 ## Um verkefnið
 
-Þetta er lokaverkefnið mitt, Guðna Natans Gunnarssonar, í áfanganum VEF2B3U. Verkefnið er síða sem sækir sjálfkrafa upplýsingar um tónleika sem verða á næsta leiti. Hægt er að leita að sérstökum tónleikum, eða flokka þá eftir staðsetningu. Vefsíðan styður alla vafra og skjástærðir.
+Þetta er lokaverkefnið mitt, Guðna Natans Gunnarssonar, í áfanganum VEF2B3U. Verkefnið er síða sem sækir sjálfkrafa upplýsingar um tónleika sem verða á næsta leiti. Hægt er að leita að sérstökum tónleikum, eða flokka þá eftir staðsetningu. Vefsíðan styður alla betri vafra og allar skjástærðir.
 
 
 ## Kóða sýnidæmi
@@ -33,7 +33,7 @@ Hægt er að prófa vefsíðuna með því að fylgja þessari slóð:
 Þetta verkefni notar API frá apis.is.
 Hægt er að finna hann á vefsíðu [apis.is](http://docs.apis.is/#endpoint-concerts).
 
-## Contributors
+## Gert af
 
 Guðni Natan Gunnarsson, 2017.
 
