@@ -25,8 +25,9 @@ $.ajax({
 ## Notkun
 
 Hægt er að prófa vefsíðuna með því að fylgja þessari slóð:
-[http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/](http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/)
-
+[http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/](http://tsuts.tskoli.is/2t/1803982879/VEF2B3U/Lokaverkefni/)  
+EÐA  
+https://gudninatan.github.io/VEF2B3U-Lokaverkefni/
 
 ## API
 
